@@ -1,5 +1,5 @@
-def palindrome(string):
-    return True if string == string[::-1] else False
+def is_palindrome(string):
+    return string == string[::-1]
 
 
-print(palindrome("helloworld"))
+print(is_palindrome("helloworld"))
